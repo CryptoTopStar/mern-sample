@@ -24,7 +24,7 @@ import EventBus from "./common/EventBus";
 const App = () => {
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
   const [showAdminBoard, setShowAdminBoard] = useState(false);
-
+console.log('ok');
   const { user: currentUser } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
